@@ -135,6 +135,7 @@ button{
     margin: 0;
     width: 100vw;
     height: 100vh;
+    flex-direction: column;
 }
 .text3{
     font-size: 60px;
@@ -143,12 +144,16 @@ button{
     position: absolute;
     left: 600px;
 }
+.text3>p{
+    margin-bottom: 0;
+}
 .services{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: -10px;
 }
 .icon1{
     width: 69px;
@@ -158,10 +163,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.services{
-    display: flex;
-    justify-content: space-around;
+    margin-left: 120px;
 }
 .service1{
     display: flex;
@@ -186,6 +188,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 120px;
 }
 .service2{
     display: flex;
@@ -202,3 +205,115 @@ button{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.70);
 }
+.icon3{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    background-color: rgba(254, 220, 90, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.service3{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.service3>span{
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-top: 20px;
+}
+.service3>p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.70);
+}
+.services2{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -10px;
+}
+.icon4{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    background-color: rgba(254, 220, 90, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.service4{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.service4>span{
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-top: 20px;
+}
+.service4>p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.70);
+}
+.icon5{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    background-color: rgba(84, 84, 212, 0.10);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.service5{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.service5>span{
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-top: 20px;
+}
+.service5>p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.70);
+}
+.icon6{
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    background-color: rgba(240, 64, 55, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.service6{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.service6>span{
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-top: 20px;
+}
+.service6>p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.70);
+}
+
+
+
+
